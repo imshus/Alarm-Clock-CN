@@ -14,7 +14,8 @@ In this project:
                       Its full-fill the purpose of alarm clock that's should be used in a regular basis.
                       We just use a HTML tags and attributes that's should used for the purpose of making this project.
                       We also use CSS for the purpose of styling a HTML structure.
-                      We also used Javascript to makes a proper activeness of the project with the helps of concept like: DOM, Event and timeseries etc.
+                      We also used Javascript to makes a proper activeness of the project with the helps of concept like:
+                      DOM, Event and timeseries etc.
 
 This project should be made for the purpoe of learning the basic concept of HTML,JAVASCRIPT,CSS.
 
