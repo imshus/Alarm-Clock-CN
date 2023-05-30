@@ -1,6 +1,6 @@
 # AlarmClock
 
-Here as you seen we are made a alarmclock a project that's should be supported by font-end-development
+Here as you seen we made a alarmclock a project that's should be supported by font-end-development features.
 
 We made this project with the help of following skill set-
 
@@ -14,6 +14,7 @@ We made this project with the help of following skill set-
 In this project:
 
 we mainly think about the code that should be used for the purpose of alarmclock.
+
 Its full-fill the purpose of alarm clock that's should be used in a regular basis.
 
 
