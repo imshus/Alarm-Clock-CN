@@ -1,4 +1,4 @@
-
+//Setting-up a current time zone.
 const currtime = document.getElementById("current-time")
 const inputTime = document.getElementById("hr")
 
@@ -11,10 +11,10 @@ const formatter = new Intl.NumberFormat('en-US', {
 
 
 const time=()=> {
-  var d = new Date();
-  var s = d.getSeconds();
-  var m = d.getMinutes();
-  var h = d.getHours();
+  var date = new Date();
+  var s = date.getSeconds();
+  var m = date.getMinutes();
+  var h = date.getHours();
  currtime.innerHTML = formatter.format(h)+" : "+formatter.format(m)+" : "+formatter.format(s)
  
 }
