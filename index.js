@@ -68,7 +68,7 @@ const deleteAlarm = (data) =>{
     showAlarm()
 }
 //play audio file
-const audio = new Audio("audio.mp3")
+const audio = new Audio("audio.wav")
 const play = () =>{
     audio.play()
     document.getElementById("alarmpopup").classList.remove("off")
