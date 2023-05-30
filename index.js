@@ -20,8 +20,7 @@ const time=()=> {
 }
 
 setInterval(time, 1000);
-
-
+//Seting-up alarm for clock
 const setAlarm = () =>{
     
     const alramHr = inputTime.value.split(":")[0]
@@ -45,12 +44,12 @@ const setAlarm = () =>{
     console.log(AlarmArray)
     showAlarm()
 }
-
+//Code that should check timeing of alarm that should of set by user 
 const checkAlarm = () =>{
-    var d = new Date();
-    var s = d.getSeconds();
-    var m = d.getMinutes();
-    var h = d.getHours();
+    var date = new Date();
+    var s = date.getSeconds();
+    var m = date.getMinutes();
+    var h = date.getHours();
 
     AlarmArray.map((data,index)=>{
         if(data.hr===h&&data.min===m&&data.sec===s){
@@ -66,7 +65,7 @@ const checkAlarm = () =>{
 }
 
 setInterval(checkAlarm, 1000);
-
+//Code that should used to delete the index alarm
 const showAlarm = () =>{
     const alrmPreview = document.getElementById("alarm-array")
     var html = ""
