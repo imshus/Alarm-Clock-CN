@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarm clock</title>
+    //Attached CSS file
     <link rel="stylesheet" href="style.css"/>
     
 </head>
@@ -16,22 +17,22 @@
         </div>
         <button class="stop"  onclick="stop()" > Stop </button>
     </div>
-    //Container/SetAlarm
+    //Container that should contains whole alarm clock
     <div id="container">   
         <h1 id="current-time" ></h1>
+        //Setting up alarm clock
         <div id="setAlarm">
             <input id="hr" placeholder="hr" step="1" type="time" value="00:00:00"/>
             <button  onclick="setAlarm()">Set Alarm</button>
         </div>
+        //Setting-up Number of alarm count
         <div class="alrmCont">
-
             <h3>Alarms</h3>
-            <div id = "alarm-array">
-                
-                
+            <div id = "alarm-array">  
             </div>
         </div>
     </div>
+    //Attached javascript file
     <script src = "index.js"></script>
 </body>
 </html>
