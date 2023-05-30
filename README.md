@@ -17,5 +17,5 @@ In this project:
                       We also used Javascript to makes a proper activeness of the project with the helps of concept like:
                       DOM, Event and timeseries etc.
 
-This project should be made for the purpoe of learning the basic concept of HTML,JAVASCRIPT,CSS.
+
 
