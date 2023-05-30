@@ -5,8 +5,11 @@ Here as you seen we are made a alarmclock a project that's should be supported b
 We made this project with the help of following skill set-
 
   1.HTML 5
+  
   2.JAVASCRIPT
+  
   3.CSS 3
+  
   
 In this project:
 
